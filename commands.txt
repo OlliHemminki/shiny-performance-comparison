@@ -1,0 +1,5 @@
+docker build -t shiny-performance-comparison .
+
+docker run -p 3838:3838 shiny-performance-comparison
+
+Selaimella osoitteeseen localhost:3838 --> Pienen hetken kuluttua tätä harjoitustehtävää varten luotu sovellus käynnistyy.
